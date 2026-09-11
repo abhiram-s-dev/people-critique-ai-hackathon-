@@ -6,47 +6,31 @@ const FUTURE_CAREERS: string[] = [
   'Professional Procrastinator',
   'Professional Scroller',
   'Full-Time Nap Specialist',
-  'Career Loading...',
   'No Future Detected',
-  'Professional Overthinker',
-  'Motivational Speaker With No Motivation',
   'Professional Excuse Generator',
   'Chief Procrastination Officer',
   'Unemployed But Optimistic',
-  'Future Influencer — 12 Followers',
-  'Professional "I\'ll Start Tomorrow" Specialist',
 ];
 
 const VERDICTS: string[] = [
   'This individual appears suspiciously confident.',
-  'This human is running on demo mode.',
   'Main character energy not detected.',
   'System recommends touching grass.',
   'This individual appears to be functioning. Barely.',
-  'Analysis complete. We learned absolutely nothing.',
   'Confidence levels exceed skill levels.',
-  'You have potential. Somewhere. Probably.',
   'Congratulations. You passed the bare minimum.',
-  'No serious issues detected. Unfortunately, no serious achievements either.',
-  'Thank you for participating in this completely unnecessary analysis.',
 ];
 
-const VERDICTS_HIGH_NPC: string[] = [
-  'Confirmed: background character in someone else\'s story.',
-  'NPC behavior detected. Dialogue options: limited.',
-  'This individual has no unique questline.',
-  'Role in story: exists.',
-];
+
+
 
 const THREAT_LEVELS: ThreatLevel[] = [
-  'COMPLETELY HARMLESS',
-  'MILDLY CONCERNING',
-  'EMOTIONALLY HARMLESS',
-  'LEGALLY AMBIGUOUS',
-  'SUSPICIOUS VIBES',
-  'CHAOTIC NEUTRAL',
-  'DANGER: OPINIONS',
-  'THREAT LEVEL: VIBES',
+  'PUBLIC NUISANCE — APPROACH AT YOUR OWN RISK',
+  'CERTIFIED MENACE',
+  'THREAT LEVEL: UNNECESSARILY PROBLEMATIC',
+  'ONE BAD DECISION AWAY FROM DISASTER',
+  'WALKING RED FLAG',
+  'ERROR 999: COMMON SENSE NOT DETECTED',
 ];
 
 // ─── Legendary Events ─────────────────────────────────────────────────────────
@@ -148,7 +132,7 @@ export function generateHumanAnalysis(demoMode = false): HumanAnalysis {
       dripLevel: 42,
       luck: -7,
       sideCharacterEnergy: 98,
-      threatLevel: 'EMOTIONALLY HARMLESS',
+      threatLevel: 'CERTIFIED MENACE',
       futureCareer: 'Professional Procrastinator',
       verdict: 'Bro is running on demo mode.',
       overallScore: 6.9,
@@ -179,7 +163,7 @@ export function generateHumanAnalysis(demoMode = false): HumanAnalysis {
   else if (aura > 800 || mainCharacterEnergy > 75) rarity = 'UNCOMMON';
 
   // Context-aware verdict
-  const verdict = npcLevel > 85 ? pick(VERDICTS_HIGH_NPC) : pick(VERDICTS);
+  const verdict = pick(VERDICTS);
 
   const base: HumanAnalysis = {
     id: generateId(),
