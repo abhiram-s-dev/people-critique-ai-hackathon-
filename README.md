@@ -136,9 +136,7 @@ https://drive.google.com/file/d/1QSXB6fdT0RYrw6vzd9S-qo6QQcul_wkh/view?usp=shari
 ### 2. AI Scanning Screen
 
 ```markdown
-![Scanning Screen](<img width="1917" height="907" alt="Screenshot 2026-09-12 062719" src="https://github.com/user-attachments/assets/6148439c-c768-4052-b976-a1ded741c9a3" />
-)
-)
+https://drive.google.com/file/d/1moqmeyw71Y1opdPnLyB4CnWBwxHr5MXv/view?usp=sharing
 ```
 
 **Caption:** The AI scans the user through the camera while displaying futuristic system diagnostics and analysis animations.
@@ -148,7 +146,7 @@ https://drive.google.com/file/d/1QSXB6fdT0RYrw6vzd9S-qo6QQcul_wkh/view?usp=shari
 ### 3. Analysis Results
 
 ```markdown
-![Analysis Results]("C:\Users\ABHIRAM S\OneDrive\Pictures\Screenshots\Screenshot 2026-09-12 062849.png")
+https://drive.google.com/file/d/1ZHaYOCDz_geWleXKzNE7QgEia1_Cn_3b/view?usp=sharing
 
 ```
 
@@ -219,7 +217,7 @@ PeopleCritique AI is a software-only web application and does not require dedica
 
 ## Video
 
-**[Add your demo video link here]**
+**[https://drive.google.com/file/d/1mP_BuQS0QwGLIgonKQjFITNxcTgQmth_/view?usp=sharing]**
 
 **Suggested description:**
 
