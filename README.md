@@ -6,9 +6,9 @@
 
 ### Team Members
 
-**Member 1:** Abhiram S - CCET
+**Member 1:** Abhiram S - Carmel College of Engineering and Technology
 
-**Member 2:** Adithyan M - CCET
+**Member 2:** Adithyan M - Carmel College of Engineering and Technology
 
 ---
 
@@ -126,8 +126,7 @@ http://localhost:5173
 ### 1. Home Screen
 
 ```markdown
-![Home Screen](<img width="1917" height="978" alt="Screenshot 2026-09-12 062558" src="https://github.com/user-attachments/assets/89201b3c-d393-4c29-a504-d1b381ab9a55" />
-)
+(https://drive.google.com/file/d/1QSXB6fdT0RYrw6vzd9S-qo6QQcul_wkh/view?usp=sharing)
 ```
 
 **Caption:** The futuristic PeopleCritique AI landing screen where users can begin their completely unnecessary human analysis.
