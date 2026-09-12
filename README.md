@@ -126,7 +126,7 @@ http://localhost:5173
 ### 1. Home Screen
 
 ```markdown
-(https://drive.google.com/file/d/1QSXB6fdT0RYrw6vzd9S-qo6QQcul_wkh/view?usp=sharing)
+https://drive.google.com/file/d/1QSXB6fdT0RYrw6vzd9S-qo6QQcul_wkh/view?usp=sharing
 ```
 
 **Caption:** The futuristic PeopleCritique AI landing screen where users can begin their completely unnecessary human analysis.
